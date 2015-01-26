@@ -1,0 +1,149 @@
+\documentclass{article}
+
+\usepackage[margin=0.9in]{geometry}
+
+% \usepackage{hyperref}
+
+\usepackage{cite}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{color}
+
+\usepackage{graphicx}
+
+\usepackage{amssymb,amsmath}
+
+\usepackage{parskip}
+
+\usepackage{algorithm}
+
+\usepackage[noend]{algorithmic}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\newcommand{\fig}[1]{Fig.~\ref{fig:#1}}
+\newcommand{\Name}{\emph{Hidden Target}~}
+
+\newcommand{\Acronym}[1]{\ensuremath{{{\texttt{#1}}}}}
+\newcommand{\Symbol}[1]{\ensuremath{\mathcal{#1}}}
+\newcommand{\Function}[1]{\ensuremath{{\textsc{#1}}}}
+\newcommand{\Constant}[1]{\ensuremath{{\texttt{#1}}}}
+\newcommand{\Var}[1]{\ensuremath{{{\textsl{#1}}}}}
+\newcommand{\False}{\Constant{false}}
+\newcommand{\True}{\Constant{true}}
+\newcommand{\Null}{\Constant{null}}
+\newcommand{\Revision}[1]{\textcolor{red}{#1}}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\Traj}{\ensuremath{\zeta}}
+\newcommand{\Tree}{\Symbol{T}}
+\newcommand{\pair}[1]{\ensuremath{\langle#1\rangle}}
+
+
+\begin{document}
+
+\setlength{\parskip}{4pt} % 1ex plus 0.5ex minus 0.2ex}
+
+\title{Personal Statement}
+
+\author{Alexander J. Wallar \\ University of St Andrews, UK
+\\ \url{http://aw204.host.cs.st-andrews.ac.uk}}
+
+\maketitle
+
+\section{Experience}
+
+I have been active in research since high school and have published 4
+first-author papers in robotics. I participated in the FIRST Tech Challenge and
+FIRST Robotics Competition during high school. I was accepted as a high school
+research assistant at the Computational Robotics Laboratory at the Catholic
+University of America (CUA) following my high school graduation in June 2012.
+At CUA, I developed interfaces for controlling the iRobot Create that included
+moving the robot using hand gestures interpreted using the Microsoft Kinect,
+and with an Android application that could interpret natural spoken language.
+After my first year of university in 2013, I participated in a National Science
+Foundation Research Experience for Undergraduates (REU) site at the University
+of Notre Dame. At Notre Dame, I developed a computer vision library for
+JavaScript that can be used to determine where a user is looking on the screen.
+For this project, I received the Best Poster Prize for the REU site.
+
+Once I returned to university after the summer, I became a research assistant
+in the School of Psychology where I configured a novel experiment that involved
+three active-shutter 3D displays of different sizes that can be viewed
+simultaneously through beam splitters. The goal of this set-up was to determine
+how people perceive 3D imagery. In parallel with working for the School of
+Psychology, I worked as a research assistant for the School of Computer Science
+developing computer vision algorithms that can translate monocular images into
+series of impulses that can be relayed to a haptic interface. The goal of this
+software was to allow people with sight impairments to perceive the real-world
+using haptic feedback.
+
+During the summer of 2014, I was part of the Naval Research Enterprise
+Internship Program at the Naval Center for Applied Research in Artificial
+Intelligence at the Naval Research Laboratory in Washington DC. I worked in the
+Distributed Autonomous Systems group developing motion planning algorithms that
+enable a group of unmanned aerial vehicles to provide persistent surveillance
+of a given area. Each robot maximizes the quality of the sensory information
+being collected whilst minimizing the risk of damage to the vehicle and the
+risk of being detected by a hostile target on the ground. I have continued to
+be affiliated with the Computational Robotics Laboratory at the Catholic
+University of America as an undergraduate research assistant developing path
+planning algorithms that enable swarms of robots to go from an initial
+configuration to a goal configuration in highly dense dynamic environments.
+Most recently, I have been working as student contractor for the Naval Center
+for Applied Research in Artificial Intelligence at the Naval Research
+Laboratory developing algorithms that allow swarms to accomplish several high
+level tasks given topological maps of the environment. The experience I have
+gained through my participation in research during my studies has prepared me
+well for a PhD; it has taught me how to solve difficult problems with little
+supervision, to be independent and self motivated, and how to present my work
+to the scientific community.
+
+I would like to attend the University of Bristol to solve problems whose
+solutions can have a major impact for good in the world. Working with Dr.
+Hauert will allow me to participate in cutting edge research in swarming
+nanosystems for cancer applications. I also look forward to working at the
+Bristol Robotics Laboratory, which is one of the best robotics laboratories in
+Europe. My previous research experience in swarm robotics and emergent
+behaviour provide me with the needed background to take on challenges in swarm
+engineering.
+
+
+\section{Project Aims}
+
+Under the supervision of Dr. Hauert, I will be working on the control of large
+robot swarms by dynamically modifying the environment.
+
+Swarm behaviours arise from the interaction of robots and their local
+environment. Each robot is typically given a controller that determines its
+individual behaviour. The challenge is to design the robot controllers given a
+desired emergent behaviour.
+
+As swarms become larger in number and smaller in physical size, our ability to
+control individuals in a reliable manner diminishes. Nanobots for cancer
+applications for example work in the trillions and are only able to diffuse and
+react to their environment~\cite{nano}. Instead of designing controllers for
+individual robots, we aim to change their environment dynamically as a way to
+control the swarm.
+
+This could enable very large numbers of minimal agents to perform controlled
+swarm behaviours through the actuation of limited elements in their
+environment.
+
+There is no obvious relation between the design of the environment and the
+emergent behaviour of a swarm. The challenge is to understand how the
+environment should actively be controlled to achieve a desired swarm behaviour.
+We hope this will result in a paradigm shift in the way swarms are engineered
+by enabling few entities to control the outcome of large numbers of limited
+robots. Applications include nanomedicine or the deployment of large scale
+robotic systems for environmental monitoring.
+
+In the scope of this project, we aim to control a swarm of 1000
+kilobots~\cite{swarm} through the modification of their environment projected
+as light pools on the kilobot arena. This will require an overhead camera to
+observe the state the swarm and update the projected environment accordingly.
+An algorithm will be designed to determine how the environment should change
+for a given desired behaviour.
+
+\bibliographystyle{ieeetr} \bibliography{bristol}
+
+\end{document}

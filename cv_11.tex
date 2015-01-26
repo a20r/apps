@@ -1,0 +1,325 @@
+
+\documentclass[10pt,a4paper]{article} % Font size (10-12pt) and paper size (a4paper, letterpaper, legalpaper, etc)
+
+\include{structure} % Include structure.tex which contains packages and document layout definitions
+
+\hyphenation{Some-long-word} % Specify custom hyphenation points in words with dashes where you would like hyphenation to occur, or alternatively, don't put any dashes in a word to stop hyphenation altogether
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\maintitle{Alex Wallar}{July 23, 1994}
+
+\noindent\href{mailto:wallarelvo@gmail.com}{wallarelvo@gmail.com}\bull % Your email address
+\textsmaller{+}44 (0) 7568 575585\bull alexander.wallar \textit{(Skype)}\bull % Your phone number(s) and Skype username
+\href{http://aw204.host.cs.st-andrews.ac.uk}{aw204.host.cs.st-andrews.ac.uk}\\ % Your URL
+69 Roundhill Road\bull St Andrews\bull Fife\bull KY16 8HE\bull UK % Your address
+
+\spacedhrule{0.9em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	SUMMARY SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Summary} % Root section title
+
+\vspace{-1.3em} % Reduce whitespace after the Summary heading and the two-column content
+
+\begin{multicols}{2}  % Start a two-column layout
+
+I am studying Computer Science at the University of St
+Andrews in Scotland and will be graduating in 2015. I am a student contractor at the Naval Center for Applied Research in Artificial Intelligence at the Naval Research Laboratory and a research assistant in
+the Computational Robotics Laboratory at the Catholic University of America. During term time, I am a research assistant for the School of
+Computer Science at the University of St Andrews.
+
+\end{multicols}
+
+\spacedhrule{0.5em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Education} % Top level section
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{University of St Andrews}
+{\textsc{St Andrews, Scotland}} {
+
+\headedsubsection % Job title entry for the current employer
+{B.Sc (Hons) Computer Science, Direct entry into second year, First Class (Expected)}
+{2012 -- 2015}
+{\bodytext{Focussed on artificial intelligence and path planning. My dissertation is about path planning in highly cluttered dynamic environments using obstacle trajectory prediction}}
+}
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{George Mason High School}
+{\textsc{Falls Church, Virginia}} {
+
+\headedsubsection % Job title entry for the current employer
+{International Baccalaureate Diploma \& Advanced Virginia Diploma}
+{2011 -- 2012} {\bodytext{Focussed on science and mathematics. My dissertation was about using numbers of different bases for cryptography}}
+}
+
+\spacedhrule{0.5em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Experience} % Top level section
+
+\headedsection
+{\href{http://www.nrl.navy.mil/lasr/content/mobile-autonomous-navy-teams-information-surveillance-and-search}{Distributed Autonomous Systems Group, Naval Research Laboratory}}
+{\textsc{Washington DC}} {
+
+\headedsubsection
+{Student Contractor}
+{May '14 -- Aug '14}
+{\bodytext{Developing algorithms for multi-agent systems that provide surveillance over a given area using topological maps of the environment. Also working on path planning algorithms for swarms in highly cluttered dynamic environments.}}
+
+\headedsubsection
+{Naval Research Enterprise Internship Program Research Intern}
+{May '14 -- Aug '14}
+{\bodytext{Working on algorithms for swarm manipulation that seek to enable a group of unmanned aerial vehicles to coordinate with one another to provide surveillance over a designated region and track potential targets.}}}
+
+
+
+\headedsection
+{\href{http://faculty.cua.edu/plaku/}{Computational Robotics Group, The Catholic University of America}}
+{\textsc{St Andrews \& Washington DC}} {
+
+\headedsubsection % Job title entry for the current employer
+{Undergraduate Research Assistant}
+{Aug '13 -- Oct '14}
+{\bodytext{Developing various robotic motion planning algorithms for single and multi-vehicle applications such as surveillance, discrete problem solving, and search \& rescue.}}
+
+\headedsubsection % Job title entry for the current employer
+{High School Research Assistant}
+{Jun '12 -- Aug '12}
+{\bodytext{Created interfaces to control the iRobot Create. One application was deployed on an Android device that would allow voice control of the robot. Another used the Microsoft Kinect to drive the robot by gathering data on hand position and interpreting it to drive commands. I also developed a motion planning algorithm to plan the movement of a swarm through a known environment. }}
+
+}
+
+%------------------------------------------------
+%------------------------------------------------
+
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{\href{http://www.st-andrews.ac.uk/}{University of St Andrews}}
+{\textsc{St Andrews, Scotland}} {
+
+\headedsubsection % Job title entry for the current employer
+{Research Assistant, School of Computer Science}
+{Feb '14 -- present}
+{\bodytext{Working on "Perceiving Pictures Through Touch: A Haptic Interface for Communicating Form". Creating a system that translates monocular images into an intensity measurement for haptic response.}}
+
+\headedsubsection % Job title entry for the current employer
+{Research Assistant, School of Psychology}
+{Sep '13 -- Jun '14}
+{\bodytext{Configure a novel experimental setup that involves 3 active-shutter 3D displays of different sizes that can be viewed simultaneously through beam splitters.}}
+}
+
+%------------------------------------------------
+
+\headedsection
+{\href{http://www.cse.nd.edu/~darts/reu.html}{Experimental Research in Wireless Networking Group, University of Notre Dame}}
+{\textsc{Notre Dame, IN}} {
+
+\headedsubsection
+{National Science Foundation Research Intern}
+{May '13 -- Aug '13}
+{\bodytext{Worked on an web application to test if a user has a concussion. Specifically, this app measures a user's coordination, memory, cognition, balance, and reflexes. The data collected from the application is pushed to a database. A researcher or proctor is able to visualize the data by visiting a page on the website. I also created \href{aw204.host.cs.st-andrews.ac.uk/camgaze.js}{Camgaze.js}, a computer vision library for in-browser eye tracking and gaze prediction written in JavaScript.}}
+}
+
+%------------------------------------------------
+
+\begin{center}
+    % \textit{Please refer to \href{https://www.linkedin.com/pub/alexander-wallar/68/985/b87}{my Linkedin profile} for the complete list of work experiences}
+\end{center}
+
+%------------------------------------------------
+
+% \spacedhrule{-0.2em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+% \spacedhrule{1.6em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%------------------------------------------------
+
+%------------------------------------------------
+
+\spacedhrule{0.5em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Publications} % Top level section
+
+\headedsection % Special section that has an inline header with a 'hanging' paragraph
+{\textbf{Peer-reviewed}}
+{}
+
+% \headedsubsection
+% {2015}
+\begin{enumerate}
+    \item {}{\bodytext{Sofge D, Sydney N, \textbf{Wallar A}, and Sullivan K (2015): \textbf{"Mobile Autonomous Navy Teams for Information Surveillance and Search (MANTISS)."} Naval Research Laboratory Review, in press \newline}}
+
+    \item {}{\bodytext{\textbf{Wallar A}, Plaku E, and Sofge D (2014): \textbf{"Motion Planning for Surveillance of Risk-Sensitive Areas by a Team of Unmanned Aerial Vehicles."} IEEE Transactions on Automation Science and Engineering, under review (submitted August 2014)\newline}}
+
+    \item {}{\bodytext{\textbf{Wallar A} and Plaku E (2014): \textbf{"Path Planning for Swarms in Dynamic Environments by
+        Combining Probabilistic Roadmaps and Potential Fields."} IEEE Symposium on Swarm Intelligence, in press \newline}}
+
+    \item {}{\bodytext{\textbf{Wallar A}, Plaku E, and Sofge D (2014): \textbf{"A Planner for Autonomous Risk-Sensitive
+        Coverage (PARCov) by a Team of Unmanned Aerial Vehicles."} IEEE Symposium on
+        Swarm Intelligence, in press\newline}}
+
+    \item {}{\bodytext{\textbf{Wallar A} and Plaku E (2014): \textbf{"Path Planning for Swarms by Combining Probabilistic Roadmaps and Potential Fields."} Springer LNAI Towards Autonomous Robotic Systems, vol. 8069, pp. 417-- 428\newline}}
+
+\end{enumerate}
+
+\headedsection % Special section that has an inline header with a 'hanging' paragraph
+{\textbf{Posters and Presentations}}
+{}
+
+\begin{enumerate}
+
+    \item {}{\bodytext{\textbf{Wallar A}, Plaku E, and Sofge D (2014): \textbf{Risk Sensitive Surveillance with Optimal Sensor Quality for Distributed Robotic Systems}, Entrepreneur First UnHacked, London, UK\newline}}
+
+    \item {} {\bodytext{\textbf{Wallar A}, Poellabauer C, Sazonovs A, and Flynn P (2014): \textbf{Camgaze.js: A JavaScript Library for Eye Tracking and Gaze Prediction}, Edinburgh University Young Scientific Researchers Association (EUYSRA) Conference, Edinburgh, UK}}
+
+% \headedsubsection
+% {2013}
+    \item {}{\bodytext{\textbf{Wallar A}, Choi C, and Sazonovs A (2013): \textbf{Bowtie: In-browser Mobile Aided Sensor Acquisition using HTML5}, Scottish Informatics and Computer Science Alliance (SICSA) DemoFest, Glasgow, UK \newline}}
+
+    \item {} {\bodytext{\textbf{Wallar A}, Poellabauer C, Sazonovs A, and Flynn P (2013): \textbf{Camgaze.js: A JavaScript Library for Eye Tracking}, Scottish Informatics and Computer Science Alliance (SICSA) DemoFest, Glasgow, UK}}
+
+\end{enumerate}
+
+\spacedhrule{1.6em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+\roottitle{Positions of Responsibility} % Top level section
+
+\headedsection
+{Class Representative, University of St Andrews}
+{\emph{Sep '14 -- present}} {
+}
+
+\headedsection
+{President, St Andrews Computing Society}
+{\emph{May '13 -- Jun '14}} {
+}
+
+\headedsection
+{Secretary, St Andrews Nerf Society}
+{\emph{May '13 -- Jun '14}} {
+}
+
+\headedsection
+{Vice President, George Mason Computer Science Club}
+{\emph{Sep '11 -- Jun '12}} {
+}
+
+%------------------------------------------------
+
+%------------------------------------------------
+
+\spacedhrule{1.6em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{Skills} % Top level section
+
+\inlineheadsection
+{Programming Languages:}
+{Python, C, C++, Java, JavaScript, Matlab, Go, C\#}
+
+\inlineheadsection
+{Programming Libraries:}{ROS, OpenCV, ZeroMQ, Flask, NumPy, MatPlotLib, OpenKinect}
+
+\inlineheadsection
+{Languages:}
+{English (\emph{Native proficiency}), Spanish (\emph{Full working proficiency})\newline}
+
+\spacedhrule{1.6em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+\roottitle{Interests} % Top level section
+
+\inlineheadsection
+{Technical:}
+{Swarm Robotics, Emergent Behaviour, Complex Systems, Autonomous Systems, Path Planning, Aerial Robotics, Artificial Intelligence, Computational Intelligence, Evolutionary Algorithms, Robotic Middleware, Stochastic Planning, Sampling Based Motion Planning, Evolutionary Robotics, Swarm Intelligence, Consensus Filtering, Mapping, Surveillance, Search \& Rescue}
+
+\inlineheadsection
+{Personal:}
+{Football (Soccer), Travelling, Music}
+
+\roottitle{Awards} % Top level section
+
+\headedsection % Special section that has an inline header with a 'hanging' paragraph
+{Individual Awards}
+{}{\bodytext{\textbf{Dean's List}, University of St Andrews
+\newline
+\textbf{NSF Best Poster Prize}, University of Notre Dame
+\newline
+\textbf{Mathematics Achievement Award}, George Mason High School
+\newline
+\textbf{Principal's Scholar}, George Mason High School
+\newline
+\textbf{International Baccalaureate Learner Profile Award}, American International School of Bucharest
+\newline
+\textbf{Athlete of the Year}, Central and Eastern European School Association
+\newline
+\textbf{Most Valuable Player}, FIRST Tech Challenge Robotics, Bucharest
+}}
+
+\headedsection
+{Team Awards}
+{}{\bodytext{\textbf{Runner Up}, KCL Tech Society HackKing's Hackathon
+\newline
+\textbf{Finalist}, Barclays Openminds
+\newline
+\textbf{Winner}, J.P. Morgan Code For Good
+\newline
+\textbf{Runner Up}, University of Edinburgh Security Appathon
+\newline
+\textbf{Third Place}, University College London Hackin' the City
+\newline
+\textbf{Gracious Professionalism Award}, FIRST Robotics Competition, Washington DC
+\newline
+\textbf{Inspire Award}, FIRST Tech Challenge Robotics, Bucharest
+\newline
+\textbf{Rockwell Collins Innovate Award}, FIRST Tech Challenge Robotics, Bucharest
+\newline
+\textbf{PTC Design Award}, FIRST Tech Challenge Robotics, Bucharest
+}}
+
+%----------------------------------------------------------------------------------------
+
+% \spacedhrule{1.6em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+% \roottitle{Skills} % Top level section
+% 
+% \inlineheadsection
+% {Programming Languages:}
+% {Python, C, C++, Java, JavaScript, Matlab, Go, C\#}
+% 
+% \inlineheadsection
+% {Programming Libraries:}{ROS, OpenCV, ZeroMQ, Flask, NumPy, MatPlotLib, OpenKinect}
+% 
+% \inlineheadsection
+% {Languages:}
+% {English (\emph{Native proficiency}), Spanish (\emph{Full working proficiency})}
+% 
+% \spacedhrule{1.6em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+% \roottitle{Interests} % Top level section
+% 
+% \inlineheadsection
+% {Technical:}
+% {Swarm Robotics, Emergent Behaviour, Complex Systems, Autonomous Systems, Path Planning, Aerial Robotics, Artificial Intelligence, Computational Intelligence, Evolutionary Algorithms, Robotic Middleware, Stochastic Planning, Sampling Based Motion Planning, Evolutionary Robotics, Swarm Intelligence, Consensus Filtering, Mapping, Surveillance, Search \& Rescue}
+% 
+% \inlineheadsection
+% {Personal:}
+% {Football (Soccer), Travelling, Music, Beer}
+
+\end{document}
